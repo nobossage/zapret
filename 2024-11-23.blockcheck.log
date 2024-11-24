@@ -1,0 +1,12 @@
+* SUMMARY
+ipv4 play.google.com curl_test_http : working without bypass
+ipv4 play.google.com curl_test_https_tls12 : tpws --split-pos=2 --oob --mss=88
+ipv4 play.google.com curl_test_https_tls12 : tpws --split-pos=2 --disorder --mss=88
+ipv4 play.google.com curl_test_https_tls12 : tpws --split-pos=2 --oob --disorder --mss=88
+ipv4 play.google.com curl_test_https_tls12 : tpws --tlsrec=midsld --mss=88
+ipv4 play.google.com curl_test_https_tls12 : tpws --tlsrec=midsld --oob --mss=88
+ipv4 play.google.com curl_test_https_tls12 : tpws --tlsrec=midsld --disorder --mss=88
+ipv4 play.google.com curl_test_https_tls12 : tpws --tlsrec=midsld --oob --disorder --mss=88
+ipv4 play.google.com curl_test_https_tls12 : nfqws --dpi-desync=fake --dpi-desync-ttl=4
+ipv4 play.google.com curl_test_https_tls12 : nfqws --dpi-desync=fake --dpi-desync-fooling=badseq
+ipv4 play.google.com curl_test_https_tls12 : nfqws --dpi-desync=fake --dpi-desync-fooling=md5sig
